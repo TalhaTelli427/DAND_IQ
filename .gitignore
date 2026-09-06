@@ -1,0 +1,77 @@
+# ---------------------------------------------------------------
+# Vivado
+# ---------------------------------------------------------------
+*.jou
+*.log
+*.str
+*.xpr
+*.dcp
+*.bit
+*.bin
+*.ltx
+*.rpx
+*.pb
+*.wdb
+*.wcfg
+.Xil/
+vivado*.backup.jou
+vivado*.backup.log
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.srcs/
+*.hbs/
+usage_statistics_webtalk*
+webtalk*.jou
+webtalk*.log
+project_1/
+myproj/
+
+# ---------------------------------------------------------------
+# STM32CubeIDE / Eclipse
+# ---------------------------------------------------------------
+Debug/
+Release/
+.metadata/
+*.launch
+RemoteSystemsTempFiles/
+*.o
+*.d
+*.su
+*.elf
+*.map
+*.list
+*.hex
+*.siz
+
+# ---------------------------------------------------------------
+# Python (tools/)
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---------------------------------------------------------------
+# OS / editor
+# ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+.vscode/
+.idea/
+
+# ---------------------------------------------------------------
+# Vivado block-design output generated next to design_1.bd
+# ---------------------------------------------------------------
+fpga/bd/design_1/ip/
+fpga/bd/design_1/hdl/
+fpga/bd/design_1/sim/
+fpga/bd/design_1/synth/
+fpga/bd/design_1/ipshared/
+build/
